@@ -185,7 +185,34 @@ static char *get_other8space()    {
     }
     return  get_exclamation(i+1);
 } static char *getBackslashN() {
-    return strdup("\n");
+    char one;
+    char two;
+    char three;
+    char four;
+    char five;
+    char six;
+    char seven;
+    char eight;
+    char nine;
+    char ten;
+    char eleven;
+    char twelve;
+    one = '\n';
+    two = one;
+    three = two;
+    four = three;
+    five = four;
+    six = five;
+    seven = six;
+    eight = seven;
+    nine = eight;
+    ten = nine;
+    eleven = ten;
+    twelve = eleven;
+    char str[2];
+    str[1] = '\0';
+    str[0] = one;
+    return strdup(str);
 }
 
 int main()                  {
